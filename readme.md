@@ -1,21 +1,18 @@
-# Lumen PHP Framework
+FULL DOCUMENTATION:
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+https://medium.com/@hudabikhoir/generate-lumen-api-documentation-menggunakan-swagger-6e55f9fe7141
+https://codeburst.io/generate-beautiful-restful-laravel-api-documentation-with-swagger-a9df486e0368
+https://github.com/DarkaOnLine/SwaggerLume
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-## Official Documentation
+1. Composer install
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+2. Type command
 
-## Security Vulnerabilities
+php artisan swagger-lume:publish
+php artisan swagger-lume:generate
+php -S localhost:8080 public/index.php
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+3. navigate
 
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+http://localhost:8080/api/documentation
